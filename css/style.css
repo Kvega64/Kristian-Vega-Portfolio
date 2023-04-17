@@ -1,0 +1,57 @@
+
+
+
+.row g-0{
+    display: flex;
+    justify-content: space-around;
+ }
+
+
+header{
+    color: aliceblue;
+}
+
+h2 {
+    font-size:  40px;
+    color: rgb(9, 9, 9);
+    background-color:#85ffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+h3 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+
+
+.btn-lg:hover {
+    background-color:#2861bdb9 ;
+}
+.img-fluid {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ body {
+    background-color: rgb(18, 18, 19);
+    margin: 0;
+  }
+
+  .gradient-custom {
+    background: linear-gradient(to right, rgb(52, 52, 53), rgb(37, 37, 41))
+}
+  
+
+.card{
+    background-color: black;
+    padding: 0px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+  
+ 
