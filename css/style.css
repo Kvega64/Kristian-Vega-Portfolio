@@ -35,6 +35,7 @@ h3 {
 }
 
  body {
+   
     background-color: rgb(18, 18, 19);
     margin: 0;
   }
@@ -45,7 +46,10 @@ h3 {
   
 
 .card{
+    
     background-color: black;
+
+
     padding: 0px;
     margin-bottom: 50px;
     
