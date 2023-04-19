@@ -6,6 +6,12 @@
     justify-content: space-around;
  }
 
+ .nav-item:hover {
+    background-color: #2861bdb9;
+    color: white;
+    text-decoration: underline;
+    border-radius: 8px;
+ }
 
 header{
     color: aliceblue;
@@ -15,7 +21,8 @@ h2 {
     font-size:  40px;
     color: rgb(9, 9, 9);
     background-color:#85ffff;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
 
 }
 h3 {
@@ -32,23 +39,24 @@ h3 {
     display: block;
     max-width: 100%;
     height: auto;
+
 }
 
  body {
+   background:url("../images/wp2733024.jpg");
    
-    background-color: rgb(18, 18, 19);
     margin: 0;
   }
 
   .gradient-custom {
-    background: linear-gradient(to right, rgb(52, 52, 53), rgb(37, 37, 41))
+    background:transparent;
 }
   
 
 .card{
     
-    background-color: black;
-
+    background-color: rgb(7, 7, 7);
+    margin-left: 50px;
 
     padding: 0px;
     margin-bottom: 50px;
@@ -60,4 +68,64 @@ h3 {
 }
 
   
+ .travelBtn{
+    color:rgb(8, 8, 8);
+    border-radius: 4px;
+   font-weight:bold;
+    background-color: #63b6be;
+    margin-left: 50px;
+    
+ }
+ .travelBtn:hover {
+    background-color:#edb470;
+    
+ }
+
+.img-fluid {
+    margin-top: 200px;
+    padding-bottom: -10px;
+}
+
+.sunnyBtn{
+    color:rgb(8, 8, 8);
+    border-radius: 4px;
+   font-weight:bold;
+    background-color:#f9e7c1;
+    margin-left: 50px;
+    
+ }
+
+ .sunnyBtn:hover {
+    background-color:#1464ae;
+    color: white;
+ }
+
+ .idahoBtn{
+    color:rgb(8, 8, 8);
+    border-radius: 4px;
+   font-weight:bold;
+    background-color:#f9e7c1;
+    margin-left: 50px;
+    
+ }
+ .idahoBtn:hover{
+    background-color: #1d646f;
+    color: white;
+ }
+
+ .academyBtn{
+    color:rgb(8, 8, 8);
+    border-radius: 4px;
+   font-weight:bold;
+    background-color:#eb9944;
+    margin-left: 50px;
+    
+ }
+ .academyBtn:hover{
+    background-color: #e60e73;
+    color: white;
+ }
+
+
+
  
