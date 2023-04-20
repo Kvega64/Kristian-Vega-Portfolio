@@ -17,12 +17,27 @@ header{
     color: aliceblue;
 }
 
+.crop-container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+   
+    
+}
+.crop-container img {
+    margin-top: -140px;
+  align-self: center;
+  
+}
+
 h2 {
     font-size:  40px;
-    color: rgb(9, 9, 9);
-    background-color:#85ffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+     
+   margin-top: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
+    background: linear-gradient(0deg, black, #2861bdb9 100%) ;
 
 }
 h3 {
@@ -48,9 +63,7 @@ h3 {
     margin: 0;
   }
 
-  .gradient-custom {
-    background:transparent;
-}
+
   
 
 .card{
@@ -73,7 +86,8 @@ h3 {
     border-radius: 4px;
    font-weight:bold;
     background-color: #63b6be;
-    margin-left: 50px;
+    margin-bottom: 0px;
+    
     
  }
  .travelBtn:hover {
@@ -91,7 +105,8 @@ h3 {
     border-radius: 4px;
    font-weight:bold;
     background-color:#f9e7c1;
-    margin-left: 50px;
+    margin-bottom: 0px;
+    
     
  }
 
@@ -105,7 +120,8 @@ h3 {
     border-radius: 4px;
    font-weight:bold;
     background-color:#f9e7c1;
-    margin-left: 50px;
+    margin-bottom: 0px;
+    
     
  }
  .idahoBtn:hover{
@@ -118,7 +134,8 @@ h3 {
     border-radius: 4px;
    font-weight:bold;
     background-color:#eb9944;
-    margin-left: 50px;
+    margin-bottom: 0px;
+    
     
  }
  .academyBtn:hover{
